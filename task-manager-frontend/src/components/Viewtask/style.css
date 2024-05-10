@@ -1,0 +1,36 @@
+.view-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.view-modal .container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 3rem;
+    margin: 0 2rem;
+    width: calc(100% - 10rem);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: black;
+    font-size: 1rem;
+}
+
+.view-modal .title {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 800px) {
+    .view-modal .container {
+        width: calc(800px - 6rem);
+    }
+}

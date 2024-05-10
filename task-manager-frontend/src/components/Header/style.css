@@ -1,0 +1,27 @@
+nav {
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    width: calc(100% - 4rem);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav>button {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: white;
+    color: black;
+}
+
+.login-link {
+    color: blue;
+    cursor: pointer;
+}
