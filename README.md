@@ -33,15 +33,15 @@
 ---
 
 ### Tasks API
-GET /tasks: Fetch all tasks.
-GET /tasks/:id: Fetch a single task by ID.
-POST /tasks: Add a new task.
-PUT /tasks/:id: Update a task by ID.
-DELETE /tasks/:id: Delete a task by ID.
+- GET /tasks: Fetch all tasks.
+- GET /tasks/:id: Fetch a single task by ID.
+- POST /tasks: Add a new task.
+- PUT /tasks/:id: Update a task by ID.
+- DELETE /tasks/:id: Delete a task by ID.
 
 ### User Authentication API
-POST /register: Register a new user.
-POST /login: Log in with username and password.
+- POST /register: Register a new user.
+- POST /login: Log in with username and password.
 
 ---
 
