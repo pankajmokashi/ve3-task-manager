@@ -1,4 +1,4 @@
-# VE3 - Task Manager
+Task Manager
 
 ## Project Setup
 
